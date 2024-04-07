@@ -1,25 +1,34 @@
-# curlCounter
+# curl_counter
+## Installation
+Make sure you have Python 3 or later installed.
+Use the following commands to install required libraries:
 
-1-)Kurulum
-Python 3 ve üzeri sürümünün yüklü olduğundan emin olun.
-Gerekli kütüphaneleri yüklemek için aşağıdaki komutları kullanın:
 pip install numpy
+
 pip install opencv-python
+
 pip install mediapipe
 
-2-)Projeyi Çalıştırma
+## Running the Project
+Run the curl_counter.py file to start the project.
 
-curl_counter.py dosyasını çalıştırarak projeyi başlatın.
-Webcam üzerinden kol egzersizi yapın ve programın ekranda bu egzersizleri izlemesine izin verin.
-Sağ kolunuzun omuz, dirsek ve bilek pozisyonlarına bağlı olarak egzersiz sayısını ve aşamalarını ekranda görebilirsiniz.
+Perform arm exercises using your webcam and allow the program to monitor these exercises on the screen.
 
-Örnek Çalıştırma
-Terminal veya komut istemcisinde:
+Based on the shoulder, elbow, and wrist positions of your right arm, you can see the number of exercises and stages on the screen.
+
+#### Example Execution
+In your terminal or command prompt:
+
 python curl_counter.py
 
-3-)Katkıda Bulunma
-Fork'layın
-Yeni bir özellik için bir dal oluşturun (git checkout -b ozellik/)
-Değişikliklerinizi yapın (git commit -am 'Yeni özellik eklendi')
-Dalınıza itme yapın (git push origin ozellik/)
-Bir Pull Talebi oluşturun
+## Contributing
+
+Fork the repository.
+
+Create a new branch for a new feature (git checkout -b feature/).
+
+Make your changes (git commit -am 'Added a new feature').
+
+Push your branch (git push origin feature/).
+
+Create a Pull Request.
